@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Escola Virtual</title>
+    </head>
+    <body>
+        
+        <div class="engloba">
+            <header>
+                <div class="container">
+                        <div class="titles">
+                            <h1>Escola Virtual</h1> <h1>Formulário de Pré Matrícula</h1>
+                        </div>
+                </div>              
+            </header>
+            <section id="dados">
+                <div class="container dados-form">
+                    <div class="form1">
+                        <div class="title">Dados Pessoais</div>
+                        <form class="formulario">
+                            <label>
+                                Nome do Aluno:
+                                <input type="text" name="form">
+                           </label>
+                           <label>
+                                Nascimento (dd/mm/aa):
+                                <input type="date" name="form">
+                            </label>
+                            <label>
+                                Nome da Mãe:
+                                <input type="text" name="form">
+                            </label>
+                            <label>
+                                Nome do Pai:
+                                <input type="text" name="form">
+                            </label>
+                            <label>
+                                Telefone:
+                                <input type="tel" name="form">
+                            </label>
+                            <label>
+                                E-mail:
+                                <input type="email" name="form">
+                            </label>
+                        </form>
+                    </div>
+                    <div class="form2">
+                        <div class="informacoes">
+                            <div class="title">Informações de Matrícula</div>
+                            <form class="formulario">
+                                <label>
+                                    Série:
+                                    <select name="form">
+                                        <option value="PE">Pré-escolar</option>
+                                        <option value="FI">Fundamental I</option>
+                                        <option value="FII">Fundamental II</option>
+                                        <option value="EM">Ensino Médio</option>
+                                    </select>
+                               </label>
+
+                               <label>
+                                    <t>Turno:</t>
+                                    <div class="radio">
+                                        <div class="espaco">
+                                            <input type="radio" name="turno" value="BD">Manhã <br>
+                                            <input type="radio" name="turno" value="BA">Tarde <br>
+                                            <input type="radio" name="turno" value="BC">Noite
+                                        </div>
+                                    </div>
+                                </label>
+                                <label>
+                                    <t>Atividades Extracurriculares:</t>
+                                    <div class="radio">
+                                        <div class="espaco">
+                                            <input type="checkbox" name="informatica">Informática <br>
+                                            <input type="checkbox" name="musica" value="BA">Música <br>
+                                            <input type="checkbox" name="balet" value="BC">Balet <br>
+                                            <input type="checkbox" name="pintura" value="BC">Pintura <br>
+                                            <input type="checkbox" name="judo" value="BC">Judô <br>
+                                            <input type="checkbox" name="futebol" value="BC">Futebol
+                                        </div>
+                                    </div>
+                                </label>
+                            </form>
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+            <footer id="footer">
+                <div class="container footer-container">
+                    <div class="botoes">
+                        <button class="botao1">Limpar Campos</button>
+                        <button class="botao2">Enviar Formulário</button>
+                    </div>
+                </div>
+            </footer>
+        </div>       
+    </body>
+</html>

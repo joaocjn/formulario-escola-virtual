@@ -1,0 +1,200 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(imagem/aquarela.jpg);
+    background-size: cover;
+}
+
+.engloba{
+    height: 925px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+header{
+    height: 120px;
+    display: flex;
+    justify-content: center; 
+}
+
+.container{
+    width: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    border: 1px solid black; 
+}
+
+header .titles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: #F3B97D;
+    text-shadow: 0px 0px 2px black;
+    display: flex;
+    align-items: center;
+}
+
+#dados{
+    height: 500px; 
+    display: flex;
+    justify-content: center;
+}
+
+.dados-form{
+    border-top: none;
+    height: 100%;
+    display: flex;
+}
+.form1{
+    flex: 1;
+}
+.form2{
+    flex: 1;
+    border-left: 1px solid black;
+}
+
+.title{
+    color: #ACD6EB;
+    text-shadow: 0px 0px 2px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.formulario [name="form"]{
+    width: 200px;
+    height: 20px;
+    border-radius: 2px;   
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.2)
+    
+}
+
+.form1 label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.form2 label{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.informacoes{
+    margin-left: 20px;
+}
+
+label t{
+    flex: 1;
+}
+.radio{
+    flex: 1;
+}
+
+.espaco{
+    margin-left: 10px;
+}
+
+#footer{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.botao1, .botao2{
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: 1px solid white;
+}
+
+.botao1{
+    background: rgb(201, 40, 40);
+}
+
+.botao2{
+    background: rgb(42, 207, 56);
+}
+
+@media (max-width: 625px){
+    .engloba{
+        height: auto;
+    }   
+
+    header{
+        height: auto;
+    }
+
+    header .titles{
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container h1{
+        max-width: 350px;
+        margin: 0px;
+    }
+
+    #dados{
+        height: auto;
+    }
+    .informacoes{
+        margin-left: 0px;
+    }
+
+    .form2{
+        border-left: none;
+        border-top: 1px solid black;
+    }
+    .dados-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form1 label{
+        margin-right: 0px;
+    }
+
+    .footer-container{
+        border-top: none;
+    }
+
+    .botao1, .botao2{
+        width: 50%;
+    }
+}
